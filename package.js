@@ -46,10 +46,3 @@ Package.onUse(function (api) {
 
     api.export(['Mysql'], 'server');
 });
-
-Package.onTest(function (api) {
-    api.use('ecmascript');
-    api.use('tinytest');
-    api.use('grs:mysql');
-    api.addFiles('mysql-tests.js');
-});
