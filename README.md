@@ -1,7 +1,10 @@
 # Meteor Mysql
 ## Reactive &amp; Easy to use
 
-# Usage
+Base sources from https://github.com/nodets/meteor-mysql converted to (almost) meteor.
+Thanks to all the nodets/meteor-mysql contributors!
+
+## Usage
 
 ```js
 //Your client side DOES NOT REQUIRE ANY CHANGES!!!
